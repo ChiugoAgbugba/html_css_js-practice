@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding-top: 10rem;
+    color: white;
+}
+
+.image{
+    border-radius: 10px;
+}
+
+.image-container{
+    display: flex;
+}
+
+.form-container{
+    background-color: black;
+    margin-right: 1rem;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    
+}
+
+.form-container input{
+    margin-bottom: 5px;
+    padding: 3px;
+    width: fit-content;
+}
